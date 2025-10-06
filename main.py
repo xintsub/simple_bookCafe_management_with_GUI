@@ -165,7 +165,9 @@ def updateMenu():
 
 # Main menu
 def draw_menu():
-    with dpg.window(label="Book Cafe", width=600, height=400, tag="main_window", pos=pos):
+
+    with dpg.window(label="Book Cafe", width=600, height=400, tag="main_window", pos=pos, no_resize=True):
+        dpg.add_image("bg_tex", pos=(0,0))
         # Table selection
         global selectedTable
         dpg.add_text("Table:", pos=[16, 43])
@@ -202,6 +204,9 @@ if __name__ == "__main__":
 
     # Dear PyGui methods
     dpg.create_context()
+    with dpg.texture_registry():
+        width, height, channels, data = dpg.load_image("Dirt_background.png")
+        dpg.add_static_texture(width, height, data, tag="bg_tex")
     init_style()
     draw_menu()
     dpg.bind_theme("custom_theme")
