@@ -1,0 +1,24 @@
+Espresso,5.0,32
+Americano,5.5,88
+Latte,7.0,83
+Cappuccino,7.0,82
+Flat White,7.5,51
+Macchiato,6.0,49
+Mocha,8.0,68
+White Chocolate Mocha,8.5,64
+Caramel Macchiato,8.5,74
+Vanilla Latte,8.0,70
+Turkish Coffee,5.5,40
+Cortado,6.5,55
+Cold Brew,7.5,60
+Nitro Cold Brew,9.0,30
+Iced Americano,6.0,79
+Iced Latte,7.5,75
+Frappuccino,9.5,50
+Affogato,10.0,25
+Irish Coffee,12.0,17
+Vienna Coffee,8.5,28
+Ristretto,5.0,47
+Pumpkin Spice Latte,9.0,37
+Espresso Con Panna,6.5,28
+Hazelnut Latte,8.0,47
